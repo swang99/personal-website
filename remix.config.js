@@ -1,13 +1,8 @@
-/**
- * @type {import('@remix-run/dev').AppConfig}
- */
-module.exports = {
-  ignoredRouteFiles: [".*"],
-  /* The following defaults are configurable. For more details, see
-   * https://remix.run/docs/en/v1/api/conventions#remixconfigjs
-  */
+/** @type {import('@remix-run/dev').AppConfig} */
+export default {
+  ignoredRouteFiles: ["**/.*"],
   // appDirectory: "app",
   // assetsBuildDirectory: "public/build",
-  // serverBuildPath: "build/index.js",
   // publicPath: "/build/",
+  // serverBuildPath: "build/index.js",
 };

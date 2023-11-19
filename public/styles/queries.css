@@ -1,0 +1,181 @@
+@media only screen and (max-width: 1200px) {
+    .hero-text-box {
+        width: 100%;
+        padding: 0 2%;
+    }
+    
+    .row {padding: 0 2%;}
+}
+
+@media only screen and (max-width: 1023px) {
+    body {font-size: 18px;}
+    section {padding: 60px 0;}
+    }
+    
+@media only screen and (max-width: 933px) {
+    body {font-size: 17px;}
+    section {padding: 60px 0;}
+    .long-copy {width: 80%; margin-left: 10%;}
+    .icon-small {width: 17px; margin-right: 5px;}
+}
+
+@media only screen and (max-width: 905px) {
+    body {font-size: 16px;}
+    section {padding: 30px 0;}
+    h1 {text-align: center;}
+    
+    .row {width: 90%; padding: 0 4%;}
+    .col {width: 100%; margin: 0 0 4% 0;}
+
+    nav {display: none;} /* hide regular nav */
+
+    .mobile-nav {
+        display: inline-block; 
+        padding: 10px 50px 0px 50px; 
+        transition: 0.6s;
+    }
+
+    .menu-open {
+        padding: 10px 50px 100vh 50px; 
+        background-color: rgb(255, 255, 255, 0.95); 
+        transition: 1.0s;
+	}
+
+    .menu-open ul li {
+        display: block; 
+        padding: 15px; 
+        margin-left: 0px;
+        transition: 0.5s;
+    }
+
+	.menu-open ul li a {
+		color: black;
+	}
+    
+    /* mobile nav icon */
+    .mobile-nav-icon .menu-outline {
+		display: inline;
+		padding-top: 12px;
+	}
+
+	.mobile-nav-icon .close-outline {
+		display: inline;
+	}
+
+    .sticky .mobile-nav-icon {
+		padding-top: 2.5px; 
+		margin-top: 7px;
+		margin-bottom: 11px;
+		transition: 0.6s;
+	}
+
+    /* hide original name */
+    .SW-name {display: none;}
+
+    /* displaying mobile name */
+    .mobile-SW-name {
+		font-size: 120%;
+        font-family: 'Raleway', sans-serif;
+        display: inline-block;
+        margin: 10px auto;
+    }
+
+    .mobile-SW-name.sticky-name {
+		margin: 0% 0% -3% 0%; 
+		font-size: 80%; 
+		padding: 0%; 
+		transition: 0.6s;
+	}
+
+	.mobile-SW-name:not(.sticky-name) {
+		font-size: 120%;
+		transition: 0.6s;
+	}
+
+    .menu-open li {display: block; margin-right: 200px;}
+    .menu-open li a:link,
+    .menu-open li a:visited {
+        display: inline-block;
+        border: 0;
+        padding: 8px 0;
+        font-size: 100%;
+    }
+    
+	.mobile-nav-icon, .sticky .mobile-nav-icon {
+		background-color: transparent;
+		color: #555; 
+	}
+	
+	.mobile-nav-icon {
+		padding-top: 12px;
+	}
+	
+    .sticky .mobile-nav-icon {
+		padding-top: 0px;
+	}
+    
+    .long-copy {width: 100%; margin-left: 0%;}
+    h1 {font-size: 180%;}
+    h2 {font-size: 150%; margin-top: 5%;}
+}
+    
+/* ABOUT Queries */
+@media only screen and (max-width: 905px) {
+    .section-abt {height: 550px;}
+    .abt-showcase li img {padding-top: 60%;}
+}
+
+@media only screen and (max-width: 830px) {.abt-showcase li img {padding-top: 70%;}}
+@media only screen and (max-width: 750px) {.abt-showcase li img {padding-top: 80%;}}
+@media only screen and (max-width: 670px) {
+    .abt-showcase li img {padding-top: 90%;}
+    .abt-showcase li {width: 40%;} 
+    .abt-cap {font-size: 150%;}
+}
+
+@media only screen and (max-width: 590px) {
+    .abt-showcase li img {padding-top: 100%;}
+    .abt-showcase li {width: 45%;} 
+}
+
+@media only screen and (max-width: 510px) {
+    .abt-showcase li img {padding-top: 110%;}
+    .abt-showcase li {width: 50%;} 
+}
+
+@media only screen and (max-width: 430px) {
+    .abt-showcase li img {padding-top: 120%;}
+    .abt-showcase li {width: 55%;} 
+}
+
+@media only screen and (max-width: 350px) {
+    .abt-showcase li img {padding-top: 130%;}
+    .abt-showcase li {width: 60%;} 
+}
+
+@media only screen and (max-width: 425px) {
+    .mobile-nav-icon {font-size: 70%;}
+    .mobile-SW-name {font-size: 80%; margin-top: 12px;}
+}
+
+@media only screen and (max-width: 385px) {.abt-cap {font-size: 125%;}}
+
+/* PIANO Queries */
+@media only screen and (max-width: 475px),
+    only screen and (min-width: 1125px) {
+    .piano-bg {
+        background: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url(img/piano-close-view2.jpg);
+        background-size: cover;
+}}
+
+/* iframe query */
+@media only screen and (max-width: 600px) {iframe {height: 200px;}}
+@media only screen and (min-width: 601px) {iframe {height: 300px; width: 533px;}}
+
+/* PHOTOS Queries */
+@media only screen and (max-width: 750px) {
+    .photos-showcase li {width: 100%; margin: 5px auto;}
+    .tools-showcase li {width: 50%; margin: 5px auto;}
+}
+
+/* CS Queries */
