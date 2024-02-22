@@ -9,40 +9,10 @@ export default function Index() {
 		
 		<section className="section-abt">
             <div className="row">
-                <ul className="abt-showcase clearfix">    
-                    <li>
-                        <Link className="abt-photo abtSlides js--wp-1" to="/" >
-                            <p className="abt-img-container">
-								<img src="styles/img/Photo/Intro/SWIt'sMeRDim.png" alt="SW Me"></img>
-							</p> 
-                            <h1 className= "abt-cap js--wp-1">Hi, I'm Stephen!</h1>
-                        </Link>
-                    </li>
-                    {/*<li>
-                        <Link className="abt-photo abtSlides js--wp-1" to="/piano" > 
-                            <p className="abt-img-container">
-								<img src="styles/img/Photo/Intro/SW2020PianoR.png" alt="SW Piano"></img>
-							</p>
-                            <h1 className= "abt-cap js--wp-1">Pianist</h1>
-                        </Link>
-                    </li> 
-                    <li>
-                        <Link className="abt-photo abtSlides js--wp-1" to="/cs" > 
-                            <p className="abt-img-container">
-								<img src="styles/img/Photo/Intro/SW2020CSR.png" alt="SW CS"></img>
-							</p>
-                            <h1 className= "abt-cap js--wp-1">Coder</h1>
-                        </Link>
-                    </li>    
-                    <li>
-                        <Link className="abt-photo abtSlides js--wp-1" to="/photography" > 
-                            <p className="abt-img-container">
-								<img src="styles/img/Photo/Intro/SW2020PhotoR.png" alt="SW Photography"></img>
-							</p>
-                            <h1 className= "abt-cap js--wp-1">Photographer</h1>
-                        </Link>
-  					</li> */}        
-                </ul>
+                <div className="abt-img-container">
+					<img src="styles/img/Photo/Intro/stephen.jpeg" alt="Stephen Wang"></img>
+				</div>
+                <h1 className="abt-cap js--wp-1">Hi, I'm Stephen!</h1>     
             </div>
         </section> 
 
@@ -52,15 +22,17 @@ export default function Index() {
                 
 				<div className="bio-paragraph">
 				<p className="long-copy">
-                I'm a rising senior at Dartmouth College pursuing a Computer Science and Economics double major. Outside of class, I'm a teaching assistant for the Computer Science department, a portfolio monitor for the Dartmouth Investment and Philanthropy Program, and a member of the Cybersecurity Society. In my free time, I enjoy playing the piano, photography, tennis, and skiing. 
+                I'm a senior at Dartmouth College pursuing a Computer Science and Economics double major. Currently, I am looking for roles in Software Engineering and Machine Learning, and so please reach out to me at swang.2420@gmail.com. Outside of class, I'm a teaching assistant for the Computer Science department, a portfolio monitor for the Dartmouth Investment and Philanthropy Program, and play in chamber music groups. In my free time, I enjoy playing the piano, taking photos of stunning sunsets, ripping one-handed backhands in tennis, and skiing in the toughest of conditions in the Ice Coast.
+
 				</p>
 				</div>
 				
 				<div className="bio-paragraph">
 				<p className="long-copy">
-				<b> My Bucket List: </b>
+				<b> My Bucket List </b>
 					<li> See Wimbledon or the French Open in person </li>
 					<li> Go on a skiing trip in the Alps </li>
+					<li> Learn all of Chopin's 4 Ballades and 24 Etudes. I'm getting there :) </li>
 					<li> Learn how to dance beyond the Just Dance games on my Xbox </li>
 				</p>
 				</div>

@@ -5,7 +5,7 @@ export default function Footer() {
   return (
 	<footer>
 		<div className="row social-icons">
-			<Link to="mailto:stephen.wang.24@dartmouth.edu" className="fa-envelope">
+			<Link to="mailto:swang.2420@gmail.com" className="fa-envelope">
 				<ion-icon name="mail"></ion-icon>
 			</Link>
 			<Link to="https://github.com/swang99" className="fa-github">

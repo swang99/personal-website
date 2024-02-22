@@ -12,7 +12,7 @@ html,
 body {
     background-color: #fcfcfc;
     color: #484848;
-    font-family: 'Lato', 'Arial', sans-serif;
+    font-family: 'Mulish', 'Lato', 'Arial', sans-serif;
     font-weight: 300;
     font-size: 20px;
     text-rendering: optimizeLegibility;
@@ -66,7 +66,7 @@ h3 {
 h4 {
     font-size: 220%;
     word-spacing: 2px;
-    font-family: 'Lato', sans-serif;
+    font-family: 'Mulish', 'Lato', sans-serif;
     text-align: center;
     margin-bottom: 30px;
     letter-spacing: 1px;
@@ -173,7 +173,7 @@ header {
 }
 
 .piano-bg {
-    background: linear-gradient(rgba(0, 0, 0, 0.2), rgba(122, 102, 102, 0.2)), url(img/piano-close-view2.jpg);
+    background: linear-gradient(rgba(0, 0, 0, 0.8), rgba(122, 102, 102, 0.8)), url(img/piano-close-view2.jpg);
 }
 
 .cs-bg {
@@ -186,6 +186,7 @@ header {
 
 .abt-bg, .piano-bg, .cs-bg, .photo-bg {
 	background-size: cover;
+	height: 50vh;
 }
 
 .photo-gen-box li {
@@ -296,12 +297,24 @@ button .mobile-nav-icon .ion-ios-close {font-size: 250%;}
 /* ABOUT */
 /* ----------------------------- */
 
-.section-abt {background-color: rgb(235, 243, 245)}
-.abt-showcase {list-style: none;}
-.abt-showcase li {width: 40%; margin: 0 auto;}
-.abt-showcase li img {display: inline; padding-top: 30%;}
-.abt-img-container img {max-width: 75%; min-width: 135px; height: auto;}
-.abt-img-container, .abt-cap {text-align: center;}
+.section-abt { background-color: rgb(235, 243, 245) }
+
+.abt-img-container {
+	text-align: center;
+	margin: 0 auto;
+	padding-top: 10%;
+}
+
+.abt-img-container img {
+	max-width: 30%;
+	min-width: 135px; 
+	border-radius: 50%;
+	height: auto;
+}
+
+.abt-cap {
+	text-align: center;
+}
 
 .section-bio {background-color: rgb(248, 245, 242);}
 .section-bio p {text-align: justify;}

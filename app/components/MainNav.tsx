@@ -43,8 +43,8 @@ export default function MainNav() {
 			</NavLink>
 			<ul>
 				<li><NavLink to="/">About</NavLink></li>
-				<li><NavLink to="/piano">Piano</NavLink></li>
 				<li><NavLink to="/cs">CS</NavLink></li>
+				<li><NavLink to="/piano">Piano</NavLink></li>
 				<li><NavLink to="/photography">Photography</NavLink></li>
 			</ul>
 		</nav>

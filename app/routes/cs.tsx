@@ -15,9 +15,9 @@ export default function cs() {
 					            position="Data Engineering Intern" 
 								tools={["Python", "SQL", "Databricks", "AWS", "PowerBI"]}
 								bullets={[
-								<li key={0}> Created automated scripts in Python, SQL, and Databricks to validate data of 200,000+ brokerage accounts </li>, 
-								<li key={1}> Designed data-cleaning pipeline to convert raw transfers Excel data into gold-level datasets within AWS </li>,
-								<li key={2}> Created rulebook using PowerBI and Databricks to fix over 75% of account anomalies, saving 5 hours/week </li>]}
+								<li key={0}> Designed pipeline to convert Excel data on 200,000+ brokerage accounts into gold-level datasets within AWS </li>, 
+								<li key={1}> Created automated scripts using Python, SQL, and Databricks to detect 99.5% of account anomalies in 2023 based on accounting rules and exceptions resulting from 24-7 cryptocurrency trading </li>,
+								<li key={2}> Created rule notebook to fix 78% of account anomalies in 2023, saving financial managers at least 1 hour/day </li>]}
 								link=""/>
 					
 					<Experience company="Dartmouth Computer Science Department" date="Jan 2023 - present"
@@ -29,29 +29,36 @@ export default function cs() {
 								link="" />
 					
 					<Experience company="U.S. Army Engineer Research and Development Center" 
-								date="Jun 2021 - Aug 2021, Apr 2022 - Jun 2022"
+								date="Jun 2021 - Jun 2022"
 					            position="Computer Science Intern, Engineered Resilient Systems" 
 								tools={["Python", "Tensorflow", "KerasTuner", "Optuna", 
 								        "Research", "scikit-learn", "matplotlib"]}
 								bullets={[
 								<li key={0}>
-									Designed ensemble deep learning and gradient-boosting models using Python, Tensorflow, XGBoost, LightGBM, and scikit-learn to reduce error in key rotorcraft performance metric predictions by 
-									<a href="/css/img/ml-rotorcraft.png"> <u> over 90% </u> </a>
-								</li>, 
+									Designed ensemble deep learning and gradient-boosting models using Python, Tensorflow, XGBoost, LightGBM, and scikit-learn to reduce error in key rotorcraft performance metric predictions by over 90%
+								</li>,
 								<li key={1}>
-									Co-authored the research paper “Synthetic CFD Estimation for Blackhawk Airfoil Lift, Drag, and Moment" 
-									<a href="/css/img/Synthetic_CFD_Estimation_for_Blackhawk_Airfoil_Lift__Drag__and_Moment.pdf"> <u>(Draft) </u></a>
-							    </li>,
-								<li key={2}> Automated testing of over 1,500 neural network configurations using Optuna and KerasTuner </li>,
-								<li key={3}> Work featured in laboratory research symposium and RD 2022 conference, reaching 600+ attendees </li>, 
-								<li key={4}> Improved data visualization capabilities of rotorcraft performance workflow using matplotlib </li>]} 
+									Automated testing of over 1,500 neural network configurations using Optuna and KerasTuner
+								</li>,
+								<li key={2}> Amended machine learning pipeline with data visualization capabilities using matplotlib to pinpoint strength of airfoil performance predictions at different angles-of-attack and Mach number for the top 50 models </li>,
+								<li key={3}> Co-authored the research paper “Synthetic CFD Estimation for Blackhawk Airfoil Drag Coefficient” </li>, 
+								<li key={4}> Work featured in laboratory research symposium and RD 2022 conference reaching over 600 attendees </li>]} 
 								link=""/>
 				</div>
 			</section> 
 
 			<section className="section-projects">
 				<div className="row">
-					<h2><b>Data + AI Projects</b></h2>
+					<h2><b>Projects</b></h2>
+					<Experience company="Opportune" date="Sep 2023 - present"
+							position="Frontend Lead" 
+							tools={["React", "Remix Run", "HTML/CSS", "Javascript", "Typescript", "Axios", "MongoDB", "Figma"]}
+							bullets={[ 
+								<li key={0}>Developed entire frontend of team-matching and project management application for new hires using React, Remix, Typescript, HTML/CSS, and seamlessly wired data from backend using Axios and MongoDB </li>,
+								<li key={1}> Featured at technology symposium attracting over 400 students, faculty, and community members </li>
+							]}
+							link="https://github.com/dartmouth-cs98-23f/opportune-frontend" />
+					
 					<Experience company="Insighting Shopping Data" date="Sep 2021 - Nov 2021"
 							position="" 
 							tools={["Python", "Pandas", "scikit-learn"]}
@@ -60,16 +67,6 @@ export default function cs() {
 								<li key={1}> Developed DBScan customer segmentation algorithm in scikit-learn and refined parameters for 20+ features </li>,
 								<li key={2}> Used Pandas to illuminate monthly insights about Insighting's products and customers within its database </li>]}
 							link="" />
-					
-					<Experience company="H&M Personalized Fashion Recommendations" date="2022"
-							    position="" 
-								tools={["Python", "Pandas", "Seaborn"]}
-								bullets={[
-								"Given past transaction data from H&M, the objective was to recommend 12 products that a customer would most likely purchase. This was the following methodology in my final model:", 
-								<li key={0}> Fill the first 6 spots with the customer's past purchases </li>,
-								<li key={1}> For the customer's top 3 purchases, fill 3 more spots with the item most frequently-bought with each of those 3 items. </li>,
-								<li key={2}> Fill the remaining spots with the most popular items overall and remove any repeats </li>]}
-								link="https://github.com/swang99/Projects/blob/main/h%26m-comp-best.ipynb"/>
 
 					<Experience company="Traffic Sign Identifier" date="2021"
 							    position="" 
@@ -84,7 +81,7 @@ export default function cs() {
 
 			<section className="section-other-projects">
 				<div className="row">
-					<h2><b>Other Projects</b></h2>
+					<h2><b>More Projects!</b></h2>
 
 					<Experience company="Audio Visualizer" date="2022"
 							    position="" 
@@ -102,6 +99,16 @@ export default function cs() {
 								<li key={1}> Maintained 2000+ lines of code, and designed unit, integration, and system tests using Makefile </li>,
 								<li key={2}> Managed source code in Github using Git flow model and adhered to the agile scrum framework </li>]}
 								link="https://github.com/cs50spring2021/nuggets-sapphire" />
+					
+					<Experience company="H&M Personalized Fashion Recommendations" date="2022"
+							    position="" 
+								tools={["Python", "Pandas", "Seaborn"]}
+								bullets={[
+								"Given past transaction data from H&M, the objective was to recommend 12 products that a customer would most likely purchase. This was the following methodology in my final model:", 
+								<li key={0}> Fill the first 6 spots with the customer's past purchases </li>,
+								<li key={1}> For the customer's top 3 purchases, fill 3 more spots with the item most frequently-bought with each of those 3 items. </li>,
+								<li key={2}> Fill the remaining spots with the most popular items overall and remove any repeats </li>]}
+								link="https://github.com/swang99/Projects/blob/main/h%26m-comp-best.ipynb"/>
 				</div>
 			</section>
 
