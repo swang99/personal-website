@@ -181,12 +181,17 @@ header {
 }
 
 .photo-bg {
-    background: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url(img/photo-background-min2.jpg);
+    background: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url(img/Icefield_2.jpeg);
 }
 
-.abt-bg, .piano-bg, .cs-bg, .photo-bg {
+.abt-bg, .piano-bg, .cs-bg {
 	background-size: cover;
 	height: 50vh;
+}
+
+.photo-bg {
+	background-size: cover;
+	height: 75vh;
 }
 
 .photo-gen-box li {
