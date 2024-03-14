@@ -22,7 +22,7 @@ export default function Index() {
                 
 				<div className="bio-paragraph">
 				<p className="long-copy">
-                I'm a senior at Dartmouth College pursuing a Computer Science and Economics double major. Currently, I am looking for roles in Software Engineering and Machine Learning, and so please reach out to me at swang.2420@gmail.com. Outside of class, I'm a teaching assistant for the Computer Science department, a portfolio monitor for the Dartmouth Investment and Philanthropy Program, and play in chamber music groups. In my free time, I enjoy playing the piano, taking photos of stunning sunsets, ripping one-handed backhands in tennis, and skiing in the toughest of conditions in the Ice Coast.
+                I'm a senior at Dartmouth College pursuing a Computer Science and Economics double major. Currently, I am looking for roles in Software Engineering and Machine Learning, so please reach out to me at swang.2420@gmail.com. Outside of class, I'm a teaching assistant for the Computer Science department, a portfolio monitor for the Dartmouth Investment and Philanthropy Program, and play in chamber music groups. In my free time, I enjoy playing the piano, taking photos of stunning sunsets, ripping one-handed backhands in tennis, and skiing in the toughest of conditions on the Ice Coast.
 
 				</p>
 				</div>
