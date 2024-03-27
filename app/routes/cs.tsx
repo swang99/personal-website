@@ -11,7 +11,7 @@ export default function cs() {
 			<section className="section-experience">
 				<div className="row">
 					<h2><b>Experience</b></h2>
-					<Experience company="Tradestation" date="Jun 2023 - Aug 2023"
+					<Experience company="TradeStation" date="Jun 2023 - Aug 2023"
 					            position="Data Engineering Intern" 
 								tools={["Python", "SQL", "Databricks", "AWS", "PowerBI"]}
 								bullets={[
@@ -30,7 +30,7 @@ export default function cs() {
 					
 					<Experience company="U.S. Army Engineer Research and Development Center" 
 								date="Jun 2021 - Jun 2022"
-					            position="Computer Science Intern, Engineered Resilient Systems" 
+					            position="Software Engineer - Machine Learning Intern" 
 								tools={["Python", "Tensorflow", "KerasTuner", "Optuna", 
 								        "Research", "scikit-learn", "matplotlib"]}
 								bullets={[
@@ -57,7 +57,7 @@ export default function cs() {
 								<li key={0}>Developed entire frontend of team-matching and project management application for new hires using React, Remix, Typescript, HTML/CSS, and seamlessly wired data from backend using Axios and MongoDB </li>,
 								<li key={1}> Featured at technology symposium attracting over 400 students, faculty, and community members </li>
 							]}
-							link="https://github.com/dartmouth-cs98-23f/opportune-frontend" />
+							link="https://medium.com/dartmouth-cs98/skills-matched-teams-built-projects-delivered-faster-with-opportune-205e84b3f040" />
 					
 					<Experience company="Insighting Shopping Data" date="Sep 2021 - Nov 2021"
 							position="" 
