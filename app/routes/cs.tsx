@@ -41,7 +41,7 @@ export default function cs() {
 									Automated testing of over 1,500 neural network configurations using Optuna and KerasTuner
 								</li>,
 								<li key={2}> Amended machine learning pipeline with data visualization capabilities using matplotlib to pinpoint strength of airfoil performance predictions at different angles-of-attack and Mach number for the top 50 models </li>,
-								<li key={3}> Co-authored the research paper “Synthetic CFD Estimation for Blackhawk Airfoil Drag Coefficient” </li>, 
+								<li key={3}> Co-authored the research paper <a href="/styles/img/Synthetic_CFD_Estimation_for_Blackhawk_Airfoil_Drag_Coefficient.pdf">“Synthetic CFD Estimation for Blackhawk Airfoil Drag Coefficient”</a> </li>, 
 								<li key={4}> Work featured in laboratory research symposium and RD 2022 conference reaching over 600 attendees </li>]} 
 								link=""/>
 				</div>
