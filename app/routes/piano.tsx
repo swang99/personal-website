@@ -1,4 +1,3 @@
-import { Link } from '@remix-run/react';
 import Footer from '~/components/Footer';
 import MainNav from '~/components/MainNav';
 import Video from '~/components/Video';
@@ -44,12 +43,6 @@ export default function piano() {
 				<div className="bio-paragraph">
 				<p className="long-copy">
 				Stephen's love of music expands to chamber music and composition as well. His successful maiden work earned him 2nd place at the 2019 Granite State Composition Competition. In 10th grade, he created a music club and composed for its chamber group. With two other chamber groups, he has played Haydn's Piano Trio No. 39 in G Major (“Gypsy”), Dvorak's Piano Trio Op. 90 (“Dumky”), and Schumann's Piano Quintet Op. 44. Stephen has always been enthusiastic about sharing music with his community, and started performing regularly in hospitals, retirement centers, and churches in New England since age 8. He inspires and leads his music club members to also serve in the community and spread a passion for music.
-				</p>
-				</div>
-
-				<div className="bio-paragraph">
-				<p className="long-copy">
-					<b><a href="/css/img/Piano Repertoire List.pdf" target="_blank" rel="noopener noreferrer">Repertoire List (PDF)</a></b>
 				</p>
 				</div>
 			</div>

@@ -312,7 +312,6 @@ button .mobile-nav-icon .ion-ios-close {font-size: 250%;}
 
 .abt-img-container img {
 	max-width: 30%;
-	min-width: 135px; 
 	border-radius: 50%;
 	height: auto;
 }
@@ -329,12 +328,12 @@ button .mobile-nav-icon .ion-ios-close {font-size: 250%;}
 /* ----------------------------- */
 
 .section-piano-vids {
-    background: linear-gradient(rgba(219, 219, 219, 0.9), rgba(219, 219, 219, 0.9)), url(img/music-background.jpg) no-repeat;
+    background: linear-gradient(rgba(219, 219, 219, 0.9), rgba(219, 219, 219, 0.9)), 
+	            url(img/music-background.jpg) no-repeat;
     z-index: 0;
     background-size: cover;
+	text-align: center;
 }
-
-.section-piano-vids p {text-align: center;}
 
 .bio-paragraph {
 	margin-bottom: 20px;
@@ -349,16 +348,6 @@ iframe {
 /* CS */
 /* ----------------------------- */
 
-.python, .htmlcss, .java {text-align: left; margin-bottom: 20px;}
-
-.collapse {
-    cursor: pointer;
-    margin-top: 22px;
-    padding: 16px;
-    width: 100%;
-    border: none;
-}
-
 .exp-content {
     line-height: 145%;
     width: 100%;
@@ -367,10 +356,6 @@ iframe {
     overflow: hidden;
     transition: max-height 0.5s ease-out;
 }
-
-.python {background-color:rgb(255, 250, 210);}
-.htmlcss {background-color:rgb(255, 243, 227);}
-.java {background-color:rgb(231, 250, 255);}
 
 .section-projects {background-color:rgb(245, 248, 253);}
 .exp-date {float: right;}
@@ -416,8 +401,17 @@ iframe {
 /* FOOTER */
 /* ----------------------------- */
 
-footer {background-color: #333; padding: 50px; font-size: 80%;}
-footer p {color: #888; text-align: center; margin-top: 30px; }
+footer {
+	background-color: #333; 
+	color: #888;
+	text-align: center;
+	padding: 50px; 
+	font-size: 80%;
+}
+
+footer p { 
+	margin-top: 30px;
+}
 
 .social-icons {
 	text-align: center;
