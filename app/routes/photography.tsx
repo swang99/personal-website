@@ -3,8 +3,8 @@ import MainNav from '~/components/MainNav';
 import Image from '~/components/Image';
 
 export default function photography() {
-    const fallPath = "styles/img/Photo/Fall";
-    const summerPath = "styles/img/Photo/Summer";
+    const fallPath = "../styles/img/Photo/Fall";
+    const summerPath = "../styles/img/Photo/Summer";
 
     return (
         <body className="personal-slide">
