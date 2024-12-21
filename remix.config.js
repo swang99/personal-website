@@ -3,6 +3,7 @@ export default {
   ignoredRouteFiles: ["**/.*"],
   // appDirectory: "app",
   // assetsBuildDirectory: "public/build",
-  // publicPath: "/build/",
+  publicPath: "/build/",
+  // publicDirectory: "public"
   // serverBuildPath: "build/index.js",
 };

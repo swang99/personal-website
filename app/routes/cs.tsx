@@ -11,41 +11,10 @@ export default function cs() {
 			<section className="section-experience">
 				<div className="row">
 					<h2><b>Experience</b></h2>
-					<Experience company="TradeStation" date="Jun 2023 - Aug 2023"
-					            position="Data Engineering Intern" 
-								tools={["Python", "SQL", "Databricks", "AWS", "PowerBI"]}
-								bullets={[
-								<li key={"tradestation-1"}> Designed pipeline to convert Excel data on 200,000+ brokerage accounts into gold-level datasets within AWS </li>, 
-								<li key={"tradestation-2"}> Created automated scripts using Python, SQL, and Databricks to detect 99.5% of account anomalies in 2023 based on accounting rules and exceptions resulting from 24-7 cryptocurrency trading </li>,
-								<li key={"tradestation-3"}> Created rule notebook to fix 78% of account anomalies in 2023, saving financial managers at least 1 hour/day </li>]}
-								link=""/>
-					
-					<Experience company="Dartmouth Computer Science Department" date="Jan 2023 - present"
-					            position="TA for COSC 1: Introduction to Programming, COSC 74: Machine Learning" 
-								tools={["Python", "OOP", "Machine Learning"]}
-								bullets={[
-								<li key={"dartta-1"}> Lead weekly recitation sessions, office hours, and 1-on-1s to reinforce key concepts (loops, OOP, recursion, graph theory, ML), support students in exam/project preparation, and encourage coding best practices </li>, 
-								<li key={"dartta-2"}> Assisted graduate TAs in COSC 1 to improve recitation materials used by 400+ students per year </li>]} 
-								link="" />
-					
-					<Experience company="U.S. Army Engineer Research and Development Center" 
-								date="Jun 2021 - Jun 2022"
-					            position="Software Engineer - Machine Learning Intern" 
-								tools={["Python", "Tensorflow", "KerasTuner", "Optuna", 
-								        "Research", "scikit-learn", "matplotlib"]}
-								bullets={[
-								<li key={"armyml-1"}>
-									Designed ensemble deep learning and gradient-boosting models using Python, Tensorflow, XGBoost, LightGBM, and scikit-learn to reduce error in key rotorcraft performance metric predictions by over 90%
-								</li>,
-								<li key={"armyml-2"}>
-									Automated testing of over 1,500 neural network configurations using Optuna and KerasTuner
-								</li>,
-								<li key={"armyml-3"}> Amended machine learning pipeline with data visualization capabilities using matplotlib to pinpoint strength of airfoil performance predictions at different angles-of-attack and Mach number for the top 50 models </li>,
-								<li key={"armyml-4"}> Co-authored the research paper <a href="/styles/img/Synthetic_CFD_Estimation_for_Blackhawk_Airfoil_Drag_Coefficient.pdf">“Synthetic CFD Estimation for Blackhawk Airfoil Drag Coefficient”</a> </li>, 
-								<li key={"armyml-5"}> Work featured in laboratory research symposium and RD 2022 conference reaching over 600 attendees </li>]} 
-								link=""/>
+					<h3 style={{ textAlign: "center" }}>Here's my <b><u> <a href="/styles/img/SW Resume.pdf" target="_blank" rel="noopener noreferrer">resume!</a></u></b></h3> 
+					<p style={{ textAlign: "center" }}> I have a broad skillset, from ML model building, data engineering, to full-stack web development!</p>
 				</div>
-			</section> 
+			</section>
 
 			<section className="section-projects">
 				<div className="row">
@@ -57,7 +26,6 @@ export default function cs() {
 							    bullets={[
 								<li key={"harmonize-1"}> Developed both frontend and backend of application that combines elements of Spotify with Instagram, turning music-sharing into a more social activity </li>]}
 								link=""/>
-
 
 					<Experience company="Opportune" date="Sep 2023 - Mar 2024"
 							position="Frontend Lead" 

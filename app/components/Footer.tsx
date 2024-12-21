@@ -18,7 +18,7 @@ export default function Footer() {
 				<ion-icon name="logo-youtube"></ion-icon>
 			</Link>
 		</div>
-		<p> Copyright &copy; 2024 by Stephen Wang. All rights reserved. </p>
+		<p> Copyright &copy; 2025 by Stephen Wang. All rights reserved. </p>
 	</footer>
   )
 }
