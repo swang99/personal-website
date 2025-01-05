@@ -21,7 +21,11 @@ export default function Index() {
                 
 				<div className="bio-paragraph">
 				<p className="long-copy">
-                I'm a recent graduate of Dartmouth College with majors in Computer Science and Economics. Currently, I am seeking roles in Software Engineering (bonus for a focus in ML) and Data Engineering. Feel free to reach me at <b>swang.2420@gmail.com</b>. Outside of class in college, I was a teaching assistant for the Computer Science department, a portfolio monitor for the Dartmouth Investment and Philanthropy Program, and played chamber music. In my free time, I enjoy playing the piano, taking photos of stunning sunsets, ripping one-handed backhands in tennis, and skiing in the toughest of conditions on the Ice Coast.
+				I'm an incoming associate technical consultant at Appian with diverse technical interests. I am excited to bring applications to life using my knowledge in machine learning, data analytics, and full-stack web development. 
+				
+				In 2024, I graduated from Dartmouth College with a double major in Computer Science and Economics. During my free time, I might be learning a new piece on the piano, taking photos of stunning sunsets, skiing in on the Ice Coast, or striving someday to hit tennis balls at 0.1% the level of my commencement speaker. 
+
+				Feel free to reach me at swang.2420@gmail.com, I'm always open to chat about new opportunities!
 				</p>
 				</div>
 				
