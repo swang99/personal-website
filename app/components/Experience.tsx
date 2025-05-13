@@ -1,18 +1,19 @@
 import { Link } from '@remix-run/react';
 
 interface expInfo {
-	company: string;
+	title: string;
 	date: string;
-	position: string;
+	position?: string | null;
 	tools: string[];
 	bullets: any[];
-	link: string;
+	link?: string;
 }
 export default function Experience(props:expInfo) {
   return (
 	<div className="resume-exp">
 		<div className="exp-title">
-			<b> {props.company} </b>
+			<b> {props.title} </b>
+			{props.link ? <Link to={props.link}><ion-icon name="logo-github"></ion-icon></Link> : null}
 			<span className="exp-date"> {props.date} </span>
 		</div>
 		<div className="exp-pos">
@@ -22,12 +23,9 @@ export default function Experience(props:expInfo) {
 			{props.tools.map(tool => {
 				return <span className="lang-button" key={tool}> {tool} </span>
 			})}
-			{props.link ? <Link to={props.link}><ion-icon name="logo-github"></ion-icon></Link> : null}
 		</div>
 		<div className="exp-description">
-			{props.bullets.map(bullet => {
-				return bullet
-			})}
+			{props.bullets.map(bullet => <li key={bullet}>{bullet}</li>)}
 		</div>
 	</div>
   )
